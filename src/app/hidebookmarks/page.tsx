@@ -42,10 +42,12 @@ export default function HideBookmarks() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="#"
+              href="https://chromewebstore.google.com/detail/hide-bookmarks/gnbeiikcchjlodiocfmmdpfacolcheaf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center px-8 py-4 bg-green-600 text-white font-medium text-lg rounded-lg hover:bg-green-700 transition-colors shadow-lg"
             >
-              <span className="mr-2">🛒</span>
+              <span className="mr-2">⬇️</span>
               Add to Chrome - FREE
             </a>
             <a
@@ -271,10 +273,12 @@ export default function HideBookmarks() {
 
             <div className="mt-8 text-center">
               <a
-                href="#"
+                href="https://chromewebstore.google.com/detail/hide-bookmarks/gnbeiikcchjlodiocfmmdpfacolcheaf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center px-8 py-4 bg-green-600 text-white font-medium text-lg rounded-lg hover:bg-green-700 transition-colors shadow-lg"
               >
-                <span className="mr-2">🛒</span>
+                <span className="mr-2">⬇️</span>
                 Install Now - It&apos;s Free!
               </a>
             </div>
@@ -374,10 +378,12 @@ export default function HideBookmarks() {
             Join thousands of users who trust Hide Bookmarks for privacy and productivity.
           </p>
           <a
-            href="#"
+            href="https://chromewebstore.google.com/detail/hide-bookmarks/gnbeiikcchjlodiocfmmdpfacolcheaf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center px-8 py-4 bg-green-600 text-white font-medium text-lg rounded-lg hover:bg-green-700 transition-colors shadow-lg mr-4"
           >
-            <span className="mr-2">🛒</span>
+            <span className="mr-2">⬇️</span>
             Add to Chrome - FREE
           </a>
           <p className="text-sm text-gray-500 dark:text-gray-400 mt-4">

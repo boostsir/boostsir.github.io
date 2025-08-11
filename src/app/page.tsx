@@ -49,14 +49,24 @@ export default function Home() {
               <p className="text-gray-600 dark:text-gray-300 mb-6">
                 Chrome extension to hide or show all bookmarks with one click. 
                 Perfect for screen recording, presentations, or when you want to 
-                clean up your browser interface.
+                clean up your browser interface. Now available on Chrome Web Store!
               </p>
-              <a
-                href="/hidebookmarks"
-                className="inline-flex items-center px-6 py-3 bg-green-600 text-white font-medium rounded-lg hover:bg-green-700 transition-colors"
-              >
-                Get Extension →
-              </a>
+              <div className="flex gap-3">
+                <a
+                  href="https://chromewebstore.google.com/detail/hide-bookmarks/gnbeiikcchjlodiocfmmdpfacolcheaf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center px-6 py-3 bg-green-600 text-white font-medium rounded-lg hover:bg-green-700 transition-colors"
+                >
+                  ⬇️ Add to Chrome
+                </a>
+                <a
+                  href="/hidebookmarks"
+                  className="inline-flex items-center px-6 py-3 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 font-medium rounded-lg hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+                >
+                  Learn More
+                </a>
+              </div>
             </div>
           </div>
 
