@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://boostsir.com
+
+# Sitemaps
+Sitemap: https://boostsir.com/sitemap.xml

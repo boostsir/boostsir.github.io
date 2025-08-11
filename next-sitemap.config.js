@@ -1,0 +1,11 @@
+/** @type {import('next-sitemap').IConfig} */
+module.exports = {
+  siteUrl: "https://boostsir.com",
+  generateRobotsTxt: true,
+  additionalPaths: async () => [
+    // Hidebookmarks
+    { loc: "/hidebookmarks", changefreq: "monthly", priority: 0.8 },
+    // Framefill
+    { loc: "/framefill", changefreq: "monthly", priority: 0.8 },
+  ],
+};
