@@ -7,5 +7,7 @@ module.exports = {
     { loc: "/hidebookmarks", changefreq: "monthly", priority: 0.8 },
     // Framefill
     { loc: "/framefill", changefreq: "monthly", priority: 0.8 },
+    // Mortgage Calculator
+    { loc: "/mortgage-calculator", changefreq: "monthly", priority: 0.8 },
   ],
 };
