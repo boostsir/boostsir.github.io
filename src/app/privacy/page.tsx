@@ -76,6 +76,26 @@ export default function Privacy() {
               <li>No bookmark content or personal data is collected</li>
               <li>All functionality operates locally on your device</li>
             </ul>
+
+            <h3 className="text-lg font-medium text-gray-900 dark:text-white mb-2">
+              Mortgage Calculator
+            </h3>
+            <ul className="text-gray-700 dark:text-gray-300 mb-4 list-disc pl-6">
+              <li>All calculations are performed locally in your browser</li>
+              <li>No financial information is transmitted or stored on our servers</li>
+              <li>Shareable links contain only calculation parameters, not personal data</li>
+            </ul>
+
+            <h3 className="text-lg font-medium text-gray-900 dark:text-white mb-2">
+              Schwab Tax Lot Extractor Chrome Extension
+            </h3>
+            <ul className="text-gray-700 dark:text-gray-300 mb-4 list-disc pl-6">
+              <li>All data extraction and processing happens locally on your device</li>
+              <li>No financial data, account information, or tax lot details are transmitted to external servers</li>
+              <li>Works entirely within Charles Schwab&apos;s secure environment</li>
+              <li>Exported data remains under your complete control and ownership</li>
+              <li>No tracking, analytics, or data collection of any kind</li>
+            </ul>
           </div>
 
           <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8 mb-8">
