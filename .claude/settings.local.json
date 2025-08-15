@@ -5,7 +5,8 @@
       "Bash(mkdir:*)",
       "Bash(npm run build:*)",
       "Bash(npm run export:*)",
-      "Bash(npx next-sitemap:*)"
+      "Bash(npx next-sitemap:*)",
+      "Bash(npm run:*)"
     ],
     "deny": []
   }
