@@ -13,8 +13,8 @@ export default function Home() {
           </p>
         </header>
 
-        <main className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-8 mb-16">
+        <main className="max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8 mb-16">
             <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow">
               <div className="flex items-center mb-4">
                 <div className="w-12 h-12 bg-blue-500 rounded-lg flex items-center justify-center text-white font-bold text-xl mr-4">
