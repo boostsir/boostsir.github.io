@@ -40,7 +40,7 @@ export default function HideBookmarks() {
             Hide and restore all your bookmarks with a single click. Perfect for privacy, 
             clean browsing, presentations, and shared computers.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
             <a
               href="https://chromewebstore.google.com/detail/hide-bookmarks/gnbeiikcchjlodiocfmmdpfacolcheaf"
               target="_blank"
@@ -49,12 +49,6 @@ export default function HideBookmarks() {
             >
               <span className="mr-2">⬇️</span>
               Add to Chrome - FREE
-            </a>
-            <a
-              href="#features"
-              className="inline-flex items-center px-8 py-4 bg-white dark:bg-gray-800 text-gray-900 dark:text-white font-medium text-lg rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors border border-gray-200 dark:border-gray-700"
-            >
-              Learn More
             </a>
           </div>
         </section>

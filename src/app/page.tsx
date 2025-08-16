@@ -103,14 +103,24 @@ export default function Home() {
               <p className="text-gray-600 dark:text-gray-300 mb-6">
                 Chrome extension to automate extraction of tax lot data from Charles Schwab positions. 
                 Export cost basis, gains/losses, and holding periods for easy tax reporting and analysis. 
-                Coming soon!
+                Now available on Chrome Web Store!
               </p>
-              <a
-                href="/SchwabTaxLotExtractor"
-                className="inline-flex items-center px-6 py-3 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700 transition-colors"
-              >
-                Learn More →
-              </a>
+              <div className="flex gap-3">
+                <a
+                  href="https://chromewebstore.google.com/detail/nfngfaakmkihccflfeikhdogangajljc"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center px-6 py-3 bg-indigo-600 text-white font-medium rounded-lg hover:bg-indigo-700 transition-colors"
+                >
+                  ⬇️ Add to Chrome
+                </a>
+                <a
+                  href="/SchwabTaxLotExtractor"
+                  className="inline-flex items-center px-6 py-3 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 font-medium rounded-lg hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors"
+                >
+                  Learn More
+                </a>
+              </div>
             </div>
           </div>
 

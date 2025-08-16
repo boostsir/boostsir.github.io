@@ -40,19 +40,15 @@ export default function SchwabTaxLotExtractor() {
             Automate extraction of tax lot data from Charles Schwab positions page. 
             Export detailed holding information with cost basis, gains/losses, and dates for tax reporting.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
-            <button
-              disabled
-              className="inline-flex items-center px-8 py-4 bg-gray-400 text-white font-medium text-lg rounded-lg cursor-not-allowed shadow-lg"
-            >
-              <span className="mr-2">🚧</span>
-              Coming Soon - In Development
-            </button>
+          <div className="flex justify-center mb-6">
             <a
-              href="#features"
-              className="inline-flex items-center px-8 py-4 bg-white dark:bg-gray-800 text-gray-900 dark:text-white font-medium text-lg rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors border border-gray-200 dark:border-gray-700"
+              href="https://chromewebstore.google.com/detail/nfngfaakmkihccflfeikhdogangajljc"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-8 py-4 bg-blue-600 text-white font-medium text-lg rounded-lg hover:bg-blue-700 transition-colors shadow-lg"
             >
-              Learn More
+              <span className="mr-2">⬇️</span>
+              Add to Chrome - FREE
             </a>
           </div>
           
@@ -389,69 +385,90 @@ export default function SchwabTaxLotExtractor() {
           </div>
         </section>
 
-        {/* Development Status */}
+        {/* Installation Instructions */}
         <section className="mb-16">
-          <div className="bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-xl p-8 max-w-4xl mx-auto">
-            <div className="text-center mb-6">
-              <span className="text-4xl mb-2 block">🚧</span>
-              <h2 className="text-2xl font-semibold text-gray-900 dark:text-white">
-                Currently In Development
-              </h2>
-            </div>
-            <div className="max-w-2xl mx-auto text-center">
-              <p className="text-gray-700 dark:text-gray-300 mb-6">
-                The Schwab Tax Lot Extractor is currently being developed following a test-driven 
-                development approach. We&apos;re building this tool with reliability and security as top priorities.
-              </p>
-              <div className="grid md:grid-cols-2 gap-6 text-left">
-                <div>
-                  <h3 className="font-semibold text-gray-900 dark:text-white mb-2">
-                    ✅ Planned Features
-                  </h3>
-                  <ul className="text-sm text-gray-600 dark:text-gray-300 space-y-1">
-                    <li>• Complete tax lot data extraction</li>
-                    <li>• JSON and CSV export options</li>
-                    <li>• Progress tracking and resume capability</li>
-                    <li>• Error handling and retry logic</li>
-                    <li>• Comprehensive testing suite</li>
-                  </ul>
+          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 max-w-3xl mx-auto">
+            <h2 className="text-3xl font-semibold text-gray-900 dark:text-white mb-6 text-center">
+              How to Install
+            </h2>
+            <div className="space-y-4">
+              <div className="flex items-start">
+                <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white font-semibold text-sm mr-4 mt-1">
+                  1
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900 dark:text-white mb-2">
-                    🎯 Development Timeline
+                  <h3 className="font-semibold text-gray-900 dark:text-white mb-1">
+                    Visit Chrome Web Store
                   </h3>
-                  <ul className="text-sm text-gray-600 dark:text-gray-300 space-y-1">
-                    <li>• Core extraction engine (Days 1-3)</li>
-                    <li>• User interface development (Days 4-5)</li>
-                    <li>• Export functionality (Days 6-7)</li>
-                    <li>• Testing and polish (Days 8-9)</li>
-                    <li>• Chrome Web Store submission</li>
-                  </ul>
+                  <p className="text-gray-600 dark:text-gray-300">
+                    Click the &quot;Add to Chrome&quot; button above to go to our Chrome Web Store page
+                  </p>
                 </div>
               </div>
+
+              <div className="flex items-start">
+                <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white font-semibold text-sm mr-4 mt-1">
+                  2
+                </div>
+                <div>
+                  <h3 className="font-semibold text-gray-900 dark:text-white mb-1">
+                    Install Extension
+                  </h3>
+                  <p className="text-gray-600 dark:text-gray-300">
+                    Click &quot;Add to Chrome&quot; and confirm the installation in the popup
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start">
+                <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white font-semibold text-sm mr-4 mt-1">
+                  3
+                </div>
+                <div>
+                  <h3 className="font-semibold text-gray-900 dark:text-white mb-1">
+                    Start Extracting
+                  </h3>
+                  <p className="text-gray-600 dark:text-gray-300">
+                    Navigate to your Schwab positions page and click the extension icon to begin
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-8 text-center">
+              <a
+                href="https://chromewebstore.google.com/detail/nfngfaakmkihccflfeikhdogangajljc"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-8 py-4 bg-blue-600 text-white font-medium text-lg rounded-lg hover:bg-blue-700 transition-colors shadow-lg"
+              >
+                <span className="mr-2">⬇️</span>
+                Install Now - It&apos;s Free!
+              </a>
             </div>
           </div>
         </section>
 
-        {/* Coming Soon CTA */}
+        {/* Final CTA */}
         <section className="text-center bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 max-w-3xl mx-auto">
           <h2 className="text-3xl font-semibold text-gray-900 dark:text-white mb-4">
-            Get Notified When Available
+            Ready to Streamline Your Tax Reporting?
           </h2>
           <p className="text-gray-600 dark:text-gray-300 mb-8">
-            Be the first to know when the Schwab Tax Lot Extractor is ready for download.
+            Join users who have already simplified their tax preparation with automated tax lot extraction.
           </p>
-          <div className="text-center">
-            <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
-              Follow our progress and get updates:
-            </p>
-            <Link
-              href="/"
-              className="inline-flex items-center px-8 py-4 bg-blue-600 text-white font-medium text-lg rounded-lg hover:bg-blue-700 transition-colors shadow-lg"
-            >
-              Visit BoostSir for Updates
-            </Link>
-          </div>
+          <a
+            href="https://chromewebstore.google.com/detail/nfngfaakmkihccflfeikhdogangajljc"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center px-8 py-4 bg-blue-600 text-white font-medium text-lg rounded-lg hover:bg-blue-700 transition-colors shadow-lg mr-4"
+          >
+            <span className="mr-2">⬇️</span>
+            Add to Chrome - FREE
+          </a>
+          <p className="text-sm text-gray-500 dark:text-gray-400 mt-4">
+            ⭐ Open Source • 🔒 100% Private • ⚡ Works Instantly
+          </p>
         </section>
 
         {/* Footer */}
