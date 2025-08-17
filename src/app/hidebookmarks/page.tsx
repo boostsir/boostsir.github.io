@@ -14,8 +14,31 @@ export const metadata: Metadata = {
 };
 
 export default function HideBookmarks() {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name: "Hide Bookmarks",
+    applicationCategory: "BrowserExtension",
+    operatingSystem: "Chrome",
+    description: "A Chrome extension to hide or show all bookmarks with one click. Perfect for screen recording, presentations, or when you want to clean up your browser interface.",
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: "4.9",
+      ratingCount: "45",
+    },
+    offers: {
+      '@type': 'Offer',
+      price: "0",
+      priceCurrency: "USD",
+    },
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-100 dark:from-gray-900 dark:to-gray-800">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="container mx-auto px-4 py-16">
         <header className="mb-8">
           <Link
